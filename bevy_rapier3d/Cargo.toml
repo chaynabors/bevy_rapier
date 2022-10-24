@@ -41,4 +41,4 @@ serde = { version = "1", features = [ "derive" ], optional = true}
 [dev-dependencies]
 bevy = { git = "https://github.com/bevyengine/bevy", default-features = false, features = ["x11", "bevy_render"]}
 approx = "0.5.1"
-glam = { version = "0.21", features = [ "approx" ] }
+glam = { version = "0.22", features = [ "approx" ] }
