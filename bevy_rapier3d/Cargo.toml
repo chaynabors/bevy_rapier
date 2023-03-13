@@ -33,7 +33,7 @@ bevy = { git = "https://github.com/bevyengine/bevy", default-features = false, f
 nalgebra = { git = "https://github.com/dimforge/nalgebra", features = [ "convert-glam021" ], branch = "dev" }
 # Don't enable the default features because we don't need the ColliderSet/RigidBodySet
 rapier3d = "0.14.0"
-bitflags = "1"
+bitflags = "2"
 #bevy_prototype_debug_lines = { version = "0.6", features = ["3d"], optional = true }
 log = "0.4"
 serde = { version = "1", features = [ "derive" ], optional = true}
